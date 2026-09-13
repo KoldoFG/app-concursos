@@ -1,7 +1,7 @@
 /* Concursos Europa - service worker
    La app funciona sin conexión con los últimos datos descargados.
    Sube el número de CACHE al publicar cambios. */
-const CACHE = "concursos-v1";
+const CACHE = "concursos-v2";
 const CLAVE_DATOS = "datos-concursos";
 const SHELL = [
   "./", "./index.html", "./manifest.webmanifest",
